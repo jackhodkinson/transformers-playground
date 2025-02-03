@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from transformers.dynamic_module_utils import get_imports
 import torch
 
-MODEL = "deepseek-ai/DeepSeek-Coder-V2-Lite-Base"
+MODEL = "deepseek-ai/deepseek-coder-1.3b-base"
 
 
 def fixed_get_imports(filename: str | os.PathLike) -> list[str]:
